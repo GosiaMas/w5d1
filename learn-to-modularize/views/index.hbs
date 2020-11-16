@@ -1,0 +1,11 @@
+<h1>THIS IS MY HOME PAGE</h1>
+<p>Signed: {{user.name}}</p>
+
+{{#each books}}
+<div>
+   <a href="/{{_id}}">
+      <h5>{{author}}</h5>
+   </a>
+
+</div>
+{{/each}}
